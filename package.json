@@ -1,0 +1,40 @@
+{
+  "name": "siprouter",
+  "version": "0.0.1",
+  "author": {
+    "name": "Qasim Ayyaz Khan",
+    "email": "qasim@technomaniacs.pk",
+    "url": "http://github.com/technomaniacs/siprouter.js"
+  },
+  "private": false,
+  "contributors": [],
+  "dependencies": {
+    "winston": "^2.2.0"
+  },
+  "description": "Simplified SMPP implementation",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "keywords": [
+    "sip",
+    "router"
+  ],
+  "main": "main.js",
+  "repository": {
+    "url": "https://github.com/technomaniacs/siprouter.js",
+    "type": "git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/technomaniacs/siprouter.js/issues"
+  },
+  "homepage": "https://github.com/technomaniacs/siprouter.js",
+  "scripts": {
+    "cover": "istanbul cover _mocha",
+    "test": "mocha"
+  },
+  "license": "GNUv3 GPL",
+  "config": {
+    }
+  }
+}
