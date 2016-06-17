@@ -1,40 +1,27 @@
 {
   "name": "siprouter",
   "version": "0.0.1",
-  "author": {
-    "name": "Qasim Ayyaz Khan",
-    "email": "qasim@technomaniacs.pk",
-    "url": "http://github.com/technomaniacs/siprouter.js"
-  },
-  "private": false,
-  "contributors": [],
+  "description": "SIP Router inspired by openser",
+  "main": "core.js",
   "dependencies": {
-    "winston": "^2.2.0"
+    "ws": "^1.1.0"
   },
-  "description": "Simplified SMPP implementation",
-  "devDependencies": {
-    "mocha": "^2.5.3"
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technomaniacs/siprouter.js.git"
   },
   "keywords": [
     "sip",
     "router"
   ],
-  "main": "main.js",
-  "repository": {
-    "url": "https://github.com/technomaniacs/siprouter.js",
-    "type": "git"
-  },
-  "readmeFilename": "README.md",
+  "author": "Qasim Ayyaz Khan",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/technomaniacs/siprouter.js/issues"
   },
-  "homepage": "https://github.com/technomaniacs/siprouter.js",
-  "scripts": {
-    "cover": "istanbul cover _mocha",
-    "test": "mocha"
-  },
-  "license": "GNUv3 GPL",
-  "config": {
-    }
-  }
+  "homepage": "https://github.com/technomaniacs/siprouter.js#readme"
 }
