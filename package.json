@@ -1,6 +1,6 @@
 {
   "name": "siprouter",
-  "version": "0.0.1",
+  "version": "0.0.1-001",
   "description": "SIP Router inspired by openser",
   "main": "core.js",
   "dependencies": {
